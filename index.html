@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Rioshop، بازار آنلاین برای خرید و فروش محصولات و ایجاد فروشگاه">
+    <meta name="theme-color" content="#08111f">
+
+    <title>Rioshop | بازار آنلاین</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- فونت فارسی -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- آیکون‌ها -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="header">
+        <div class="container nav">
+
+            <a href="#home" class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                <span>Rioshop</span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="active">خانه</a>
+                <a href="#products">محصولات</a>
+                <a href="#stores">فروشگاه‌ها</a>
+                <a href="#offers">پیشنهادهای ویژه</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="icon-btn" id="searchBtn" aria-label="جستجو">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+
+                <button class="icon-btn cart-btn" id="cartBtn" aria-label="سبد خرید">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+
+                <button class="login-btn" id="loginBtn">
+                    ورود
+                </button>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="منو">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- ==================== HERO ==================== -->
+        <section class="hero" id="home">
+            <div class="hero-glow glow-1"></div>
+            <div class="hero-glow glow-2"></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <i class="fa-solid fa-bolt"></i>
+                        بازار آنلاین Rioshop
+                    </div>
+
+                    <h1>
+                        خرید و فروش را
+                        <span>از یک جای درست</span>
+                        شروع کن.
+                    </h1>
+
+                    <p>
+                        Rioshop در حال ساخت یک بازار آنلاین مدرن برای ارتباط
+                        خریداران و فروشندگان است؛ جایی برای کشف محصولات،
+                        ساخت فروشگاه و مدیریت خرید و فروش.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#products" class="primary-btn">
+                            مشاهده محصولات
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </a>
+
+                        <button class="secondary-btn" id="heroSellerBtn">
+                            فروشنده شوید
+                        </button>
+                    </div>
+
+                    <!-- آمار واقعی پس از راه‌اندازی Backend جایگزین می‌شود -->
+                    <div class="hero-status">
+                        <div>
+                            <i class="fa-solid fa-rocket"></i>
+                            <span>در حال توسعه</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <span>آماده برای ساخت نسخه واقعی</span>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-store"></i>
+                            <span>منتظر اولین فروشگاه</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="hero-visual">
+                    <div class="orb orb-big"></div>
+                    <div class="orb orb-small"></div>
+
+                    <div class="floating-card">
+                        <div class="mini-logo">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </div>
+
+                        <div>
+                            <small>بازار آنلاین Rioshop</small>
+                            <h3>آماده برای محصولات و فروشگاه‌های واقعی</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== FEATURES ==================== -->
+        <section class="features">
+            <div class="container feature-grid">
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                        <h3>خرید مطمئن</h3>
+                        <p>ساختار Rioshop برای یک تجربه شفاف و امن طراحی می‌شود.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+                    <div>
+                        <h3>فروشگاه شخصی</h3>
+                        <p>فروشندگان می‌توانند فروشگاه و محصولات خود را مدیریت کنند.</p>
+                    </div>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                    <div>
+                        <h3>مدیریت سفارش</h3>
+                        <p>سبد خرید و سفارش‌ها در نسخه واقعی به‌صورت کامل فعال می‌شوند.</p>
+                    </div>
+                </div>
+
+                <button class="feature-card feature-button" id="supportFeatureBtn">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <div>
+                        <h3>پشتیبانی</h3>
+                        <p>راهنما و ارتباط با تیم Rioshop در یک بخش مشخص.</p>
+                    </div>
+                </button>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== POPULAR PRODUCTS ==================== -->
+        <section class="section" id="products">
+            <div class="container">
+
+                <div class="section-header">
+                    <div>
+                        <span class="section-label">محصولات</span>
+                        <h2>محصولات Rioshop</h2>
+                        <p>محصولات واقعی پس از ثبت توسط فروشندگان در این بخش نمایش داده می‌شوند.</p>
+                    </div>
+                </div>
+
+                <div class="empty-state">
+                    <div class="empty-state-icon">
+                        <i class="fa-solid fa-box-open"></i>
+                    </div>
+
+                    <h3>هنوز محصولی ثبت نشده است</h3>
+
+                    <p>
+                        در حال حاضر هیچ محصولی در Rioshop وجود ندارد.
+                        پس از راه‌اندازی سیستم فروشندگان، محصولات واقعی در اینجا نمایش داده خواهند شد.
+                    </p>
+
+                    <button class="primary-btn" id="emptyProductSellerBtn">
+                        <i class="fa-solid fa-store"></i>
+                        اولین فروشنده Rioshop باشید
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== TOP STORES ==================== -->
+        <section class="section dark-section" id="stores">
+            <div class="container">
+
+                <div class="section-header">
+                    <div>
+                        <span class="section-label">فروشگاه‌ها</span>
+                        <h2>فروشگاه‌های Rioshop</h2>
+                        <p>فروشگاه‌های واقعی پس از ایجاد توسط کاربران در این بخش قرار می‌گیرند.</p>
+                    </div>
+                </div>
+
+                <div class="empty-state dark-empty-state">
+                    <div class="empty-state-icon">
+                        <i class="fa-solid fa-store"></i>
+                    </div>
+
+                    <h3>هنوز فروشگاهی فعال نیست</h3>
+
+                    <p>
+                        Rioshop منتظر اولین فروشگاه واقعی است.
+                        با فعال شدن پنل فروشندگان، کاربران می‌توانند فروشگاه خود را ایجاد کنند.
+                    </p>
+
+                    <button class="secondary-btn seller-empty-btn" id="emptyStoreSellerBtn">
+                        ایجاد اولین فروشگاه
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== NEW PRODUCTS ==================== -->
+        <section class="section">
+            <div class="container">
+
+                <div class="section-header">
+                    <div>
+                        <span class="section-label">تازه وارد</span>
+                        <h2>محصولات جدید</h2>
+                        <p>جدیدترین محصولات ثبت‌شده در آینده در این بخش نمایش داده می‌شوند.</p>
+                    </div>
+                </div>
+
+                <div class="compact-empty-state">
+                    <i class="fa-solid fa-sparkles"></i>
+                    <div>
+                        <h3>هنوز محصول جدیدی وجود ندارد</h3>
+                        <p>با ثبت اولین محصولات واقعی، جدیدترین آن‌ها در این بخش قرار می‌گیرند.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== SPECIAL OFFER ==================== -->
+        <section class="section" id="offers">
+            <div class="container">
+
+                <div class="offer-banner offer-empty">
+
+                    <div class="offer-content">
+                        <span>
+                            <i class="fa-solid fa-gift"></i>
+                            پیشنهادهای ویژه
+                        </span>
+
+                        <h2>پیشنهاد ویژه‌ای در حال حاضر وجود ندارد</h2>
+
+                        <p>
+                            تخفیف‌ها و پیشنهادهای واقعی پس از اضافه شدن محصولات و فروشگاه‌ها
+                            در این بخش نمایش داده می‌شوند.
+                        </p>
+
+                        <button class="primary-btn" id="offerBtn">
+                            اطلاع از پیشنهادهای آینده
+                            <i class="fa-solid fa-bell"></i>
+                        </button>
+                    </div>
+
+                    <div class="offer-discount offer-icon-box">
+                        <i class="fa-solid fa-tags"></i>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==================== SELLER CTA ==================== -->
+        <section class="seller-section">
+            <div class="container seller-box">
+
+                <div>
+                    <span class="section-label">برای فروشندگان</span>
+
+                    <h2>فروشگاه خودت را در Rioshop راه‌اندازی کن.</h2>
+
+                    <p>
+                        پنل فروشندگان، مدیریت محصولات، سفارش‌ها و درآمد،
+                        در مسیر تبدیل Rioshop به یک بازار آنلاین واقعی آماده می‌شوند.
+                    </p>
+                </div>
+
+                <button class="seller-main-btn" id="sellerBtn">
+                    <i class="fa-solid fa-store"></i>
+                    فروشنده شوید
+                </button>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FLOATING SELLER BUTTON ==================== -->
+    <button class="floating-seller" id="floatingSeller">
+        <i class="fa-solid fa-store"></i>
+        فروشنده شوید
+    </button>
+
+
+    <!-- ==================== CART SIDEBAR ==================== -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <aside class="cart-sidebar" id="cartSidebar">
+
+        <div class="cart-header">
+            <h2>
+                <i class="fa-solid fa-cart-shopping"></i>
+                سبد خرید
+            </h2>
+
+            <button id="closeCart" aria-label="بستن سبد خرید">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <div class="empty-cart">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <p>سبد خرید شما خالی است.</p>
+                <span>هنوز محصولی برای اضافه کردن وجود ندارد.</span>
+            </div>
+        </div>
+
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>مجموع</span>
+                <strong id="cartTotal">۰ تومان</strong>
+            </div>
+
+            <button class="checkout-btn" id="checkoutBtn">
+                ادامه و ثبت سفارش
+            </button>
+        </div>
+
+    </aside>
+
+
+    <!-- ==================== SEARCH MODAL ==================== -->
+    <div class="modal" id="searchModal">
+        <div class="modal-box search-box">
+
+            <button class="modal-close close-modal" aria-label="بستن">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <h2>جستجو در Rioshop</h2>
+
+            <div class="search-input-wrap">
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="دنبال چه محصولی هستید؟"
+                >
+            </div>
+
+            <div id="searchResult">
+                <div class="search-empty-message">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <p>هنوز محصولی برای جستجو در Rioshop ثبت نشده است.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- ==================== LOGIN MODAL ==================== -->
+    <div class="modal" id="loginModal">
+        <div class="modal-box">
+
+            <button class="modal-close close-modal" aria-label="بستن">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="modal-icon">
+                <i class="fa-solid fa-user"></i>
+            </div>
+
+            <h2>ورود به Rioshop</h2>
+
+            <p>
+                سیستم ثبت‌نام و ورود واقعی در مرحله اتصال Rioshop به Backend فعال می‌شود.
+            </p>
+
+            <input
+                type="text"
+                class="modal-input"
+                id="loginInput"
+                placeholder="شماره موبایل یا ایمیل"
+            >
+
+            <button class="primary-btn full-btn" id="fakeLoginBtn">
+                ادامه
+            </button>
+
+        </div>
+    </div>
+
+
+    <!-- ==================== INFO MODAL ==================== -->
+    <div class="modal" id="infoModal">
+        <div class="modal-box info-modal-box">
+
+            <button class="modal-close" id="closeInfoModal" aria-label="بستن">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div id="infoModalContent"></div>
+
+        </div>
+    </div>
+
+
+    <!-- ==================== TOAST ==================== -->
+    <div class="toast" id="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toastText"></span>
+    </div>
+
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+                <a href="#home" class="logo">
+                    <div class="logo-icon">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </div>
+                    <span>Rioshop</span>
+                </a>
+
+                <p>
+                    Rioshop، یک بازار آنلاین در حال توسعه برای ایجاد ارتباطی
+                    ساده‌تر میان خریداران و فروشندگان.
+                </p>
+            </div>
+
+
+            <div>
+                <h4>Rioshop</h4>
+                <a href="#home">خانه</a>
+                <a href="#products">محصولات</a>
+                <a href="#stores">فروشگاه‌ها</a>
+                <button class="footer-link-btn" data-page="about">
+                    درباره Rioshop
+                </button>
+            </div>
+
+
+            <div>
+                <h4>راهنما</h4>
+
+                <button class="footer-link-btn" data-page="terms">
+                    قوانین و مقررات
+                </button>
+
+                <button class="footer-link-btn" data-page="privacy">
+                    حریم خصوصی
+                </button>
+
+                <button class="footer-link-btn" data-page="support">
+                    پشتیبانی
+                </button>
+            </div>
+
+
+            <div>
+                <h4>ارتباط با ما</h4>
+
+                <p class="footer-text">
+                    برای ارسال پیشنهاد، گزارش مشکل یا دریافت راهنمایی،
+                    از بخش پشتیبانی استفاده کنید.
+                </p>
+
+                <button class="footer-link-btn contact-footer-btn" data-page="contact">
+                    <i class="fa-solid fa-envelope"></i>
+                    تماس با ما
+                </button>
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            <div class="container">
+                © <span id="currentYear">2026</span> Rioshop — تمامی حقوق محفوظ است.
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
